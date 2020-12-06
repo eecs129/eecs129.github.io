@@ -23,7 +23,7 @@ jobs:
       - name: Install node modules
         run: |
           sudo apt install curl jq
-          npm install postcss postcss-cli autoprefixer
+          npm install -g postcss postcss-cli autoprefixer
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
