@@ -1,0 +1,5 @@
+{{ define "main" }}
+<div class="container">
+    {{ partial "members/ListAllMembers.html" (dict "context" . "basePath" "/members/" "align" "left")  }}
+</div>
+{{ end }}

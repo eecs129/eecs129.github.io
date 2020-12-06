@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <div class="container markdown top-pad">
+        {{ with .Resources.ByType "image" }}
+        {{ range first 1 (sort . "Params.weight") }}
+
+        <!-- Resize image -->
+        {{ $image := .Resize "x720" }}
+
+        <img src="{{ $image.Permalink }}" alt ="{{ $image.Name }}">
+
+        {{ end }}
+        {{ end }}
+        {{ .Content }}
+    </div>
+    <!-- End post content -->
+    {{ partial "comments.html" . }}
+{{ end }}
