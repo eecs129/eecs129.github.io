@@ -6,11 +6,9 @@ draft: true
 
 如果你有兴趣加入合唱组，请直接联系我们，不要犹豫！
 
-岳亮：
+曹瑛典：yingdianc \[AT\] pku.edu.cn
 
-曹瑛典：
+如果你可以帮忙对网站进行维护，或者发现这个网站的版权问题，请联系：
 
-如果你可以帮忙对网站进行维护，或者对这个网站的版权有反馈，请联系：
-
-n0b0dy: n0b0dypku@gmail.com
+n0b0dy: n0b0dypku \[AT\] gmail.com
 
