@@ -1,5 +1,6 @@
+baseURL = "https://eecs129.site/"
 languageCode = "en-us"
 title = "PKU EECS 129"
-
+theme = "hugo-notepadium"
 [params]
     footerText      = "本站点由北大信科129合唱组维护，使用[hugo](https://gohugo.io/)构建"
